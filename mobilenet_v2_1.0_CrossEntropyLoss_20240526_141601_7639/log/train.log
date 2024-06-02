@@ -1,0 +1,17 @@
+INFO: build_train_loader,input_size:[112, 112]
+INFO: build_test_loader,input_size:[112, 112]
+INFO: build_model,net_type:mobilenet_v2
+INFO: build_criterion,loss_type:CrossEntropyLoss,num_classes:7
+INFO: build_optimizer
+INFO: optim_type:SGD,init_lr:0.01,weight_decay:0.0005
+INFO: build_callbacks
+INFO: ============================================================
+INFO: work_dir          :work_space/mobilenet_v2_1.0_CrossEntropyLoss_20240526_141601_7639
+INFO: config_file       :configs/config.yaml
+INFO: gpu_id            :[0]
+INFO: main device       :cuda:0
+INFO: num_samples(train):142569
+INFO: num_classes       :7
+INFO: mean_num          :20367.0
+INFO: ============================================================
+INFO: start train
